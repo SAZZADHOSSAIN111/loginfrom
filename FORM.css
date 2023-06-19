@@ -5,12 +5,17 @@
     
 }
 input[type=text]{
-    width: 100%;
+    width: 15%;
     padding: 10px;
     border: 2px solid rgb(136, 86, 243);
     border-radius: 10px;
     background-color: rgb(238, 220, 220);
     /* color: black; */
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(52, 96, 214);
+    transition: .5s;
+    
 }
 
 label{
@@ -20,6 +25,14 @@ label{
 
 }
 input[type=text]:focus {
-    border: 2px solid red
+    border-bottom: 2px solid red;
+    width: 100%;
 }
 
+#in1{
+    background-image: url(searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    /* padding: 10px 40px 10px 40px; */
+    padding-left: 40px;
+}
